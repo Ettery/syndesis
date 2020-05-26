@@ -15,10 +15,19 @@
    limitations under the License.
 -->
 <extensions>
-    <extension>
-        <groupId>co.leantechniques</groupId>
-        <artifactId>maven-buildtime-extension</artifactId>
-        <version>3.0.3</version>
-    </extension>
+  <extension>
+    <groupId>co.leantechniques</groupId>
+    <artifactId>maven-buildtime-extension</artifactId>
+    <version>3.0.3</version>
+  </extension>
+  <extension>
+    <groupId>org.srcdeps.mvn</groupId>
+    <artifactId>srcdeps-maven-local-repository</artifactId>
+    <version>4.0.0</version>
+  </extension>
+  <extension>
+    <groupId>org.srcdeps.mvn</groupId>
+    <artifactId>srcdeps-maven-enforcer</artifactId>
+    <version>4.0.0</version>
+  </extension>
 </extensions>
-
